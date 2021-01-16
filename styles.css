@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -10,23 +11,92 @@ body {
 
 header {
     display: flex;
-    height: 40%;
+    height: 60%;
+}
+
+h1, p {
+    margin: 0;
 }
 .container {
     height: 100%;
     width: 100%;
-    background-color: aqua;
+    background-color: #212121;
+}
+
+.profile {
+    width: 30%;
+    background-color: #212121;
 }
 
 .profile-pic {
-    width: 30%;
-    background-color: brown;
+    border-radius: 100%;
+    width: 50%;
+    margin: 25%;
 }
 
 .title-info {
     width: 70%;
-    background-color:red;
+    background-color:#323232;
 }
 
+.title {
+    width: 90%;
+    height: 80%;
+    margin-left: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.info {
+    width: 90%;
+    height: 20%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-name {
+    color:grey;
+    font-size: 56px;
+}
+
+.middle-name {
+    color: #14ffeb67;
+    font-size: 80px;
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+}
+
+.expertise {
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.info-item {
+    font-size: 14px;
+    color: grey;
+}
+
+.info-item-title {
+    color: #14ffeb67;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.expertise-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    font-size: 30px;
+    padding: 8px;
+    margin: 8px;
+    background-color: #212121;
+    border-radius: 3px;
+    color: #14ffeb67;
+}
 
 
