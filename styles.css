@@ -1,102 +1,33 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-body {
-    height: 100%;
-}
-
-header {
-    display: flex;
-    height: 60%;
+    box-sizing: border-box;
 }
 
 h1, p {
     margin: 0;
 }
+
 .container {
     height: 100%;
     width: 100%;
-    background-color: #212121;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
-.profile {
-    width: 30%;
-    background-color: #212121;
+.content {
+    background-color: white;
+    width: 100%;
 }
 
-.profile-pic {
-    border-radius: 100%;
-    width: 50%;
-    margin: 25%;
-}
+.menu {
+    background-color: gray;
+    width: 100%;
+} 
 
-.title-info {
-    width: 70%;
-    background-color:#323232;
-}
 
-.title {
-    width: 90%;
-    height: 80%;
-    margin-left: 50px;
-    border-bottom: 1px solid grey;
-}
-
-.info {
-    width: 90%;
-    height: 20%;
-    margin-left: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.first-name {
-    color:grey;
-    font-size: 56px;
-}
-
-.middle-name {
-    color: #14ffeb67;
-    font-size: 80px;
-    font-family: 'Caveat', cursive;
-    font-style: italic;
-}
-
-.expertise {
-    font-size: 20px;
-    color: grey;
-    margin-top: 10px;
-}
-
-.info-item {
-    font-size: 14px;
-    color: grey;
-}
-
-.info-item-title {
-    color: #14ffeb67;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.expertise-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.link {
-    font-size: 30px;
-    padding: 8px;
-    margin: 8px;
-    background-color: #212121;
-    border-radius: 3px;
-    color: #14ffeb67;
-}
 
 
