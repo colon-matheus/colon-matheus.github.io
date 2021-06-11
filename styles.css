@@ -1,33 +1,40 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
 }
 
-h1, p {
-    margin: 0;
+h1,
+p {
+  margin: 0;
 }
 
 .container {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 .content {
-    background-color: white;
-    width: 100%;
+  background-color: white;
+  width: 100%;
 }
 
 .menu {
-    background-color: gray;
-    width: 100%;
-} 
+  background-color: gray;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
 
-
-
-
+.nav {
+    background-color: red;
+}
+.profile {
+    background-color: blue;
+}
